@@ -1,17 +1,17 @@
 #!/bin/bash
 
-a=0
-b=0
+mn=0
+wn=0
 
 echo -n "man : "
-read a
+read mn
 
 echo -n "woman : "
-read b
+read wn
 
-if [ $a -lt $b ]
+if [ $mn -lt $wn ]
 then
-	echo woman : $b
+				echo woman : $wn
 else
-        echo man : $a
+        echo man : $mn
 fi
